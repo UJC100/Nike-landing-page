@@ -1,4 +1,4 @@
-import { Nav } from "./components";
+
 import {
   CustomerReviews,
   Footer,
@@ -8,7 +8,9 @@ import {
   SpecialOffer,
   Subscribe,
   SuperQuality,
-} from "./components";
+} from "./section";
+import Nav from "./components/Nav";
+import "./App.css"
 
 const App = () => {
   return (
